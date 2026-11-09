@@ -53,6 +53,23 @@ def main():
     print(f"saatiin {saatiin}")
     print(f"Mehuvarasto: {mehua}")
 
+def break_row():
+    print("ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp")
+
+def break_indent():
+  print("herllo")
+
+def break_blocks():
+    l = 0
+    i = 0
+    if l == 0:
+        for i in range(0):
+            if l%2 == 4:
+                print(l)
+
+def break_var():
+    a, b, c, d, e, f, g, h, i, j = 1
+    return a + b+c+d+e+f+g+h+i+j
 
 if __name__ == "__main__":
     main()
