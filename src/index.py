@@ -73,6 +73,6 @@ def main():
     ota_olutta(olutta)
     ota_mehua(mehua)
     print(f"Mehuvarasto: {mehua}")
-
+    print("pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp")
 if __name__ == "__main__":
     main()
